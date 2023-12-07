@@ -11,9 +11,9 @@ app.use(express.json());
 app.use(userRouter);
 app.use(taskRouter);
 
-const myFunction = async () => {};
+// const myFunction = async () => {};
 
-myFunction();
+// myFunction();
 
 app.listen(port, () => {
   console.log("Server is up on port " + port);
