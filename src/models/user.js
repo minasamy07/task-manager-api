@@ -79,7 +79,7 @@ userSchema.pre("remove", async function (next) {
 
   next();
 });
-//hhhhh
+
 const User = mongoose.model("User", userSchema);
 
 module.exports = User;
